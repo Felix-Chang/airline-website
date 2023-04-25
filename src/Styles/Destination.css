@@ -1,0 +1,45 @@
+.destination-logo img {
+  width: auto;
+  margin: 25px 50px;
+  height: 250px;
+  padding: 15px;
+}
+.destination-description {
+  display: inline-flex;
+}
+.general {
+  text-align: left;
+  margin: 15px 0px 20px 40px;
+}
+.sub-header {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: left;
+}
+.description-img img {
+  width: auto;
+  margin: 25px 50px;
+  height: 150px;
+  padding: 15px;
+  border: 4px solid rgb(216, 47, 46);
+
+  border-radius: 20px;
+}
+.left {
+  padding-left: 40px;
+}
+.right {
+  padding-left: 40px;
+
+  padding-right: 40px;
+}
+.conseil-title {
+  font-weight: 600;
+  margin-top: 15px;
+}
+.conseil-text {
+  text-align: center;
+}
+.conseil-text div {
+  margin-top: 15px;
+}

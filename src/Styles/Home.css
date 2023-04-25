@@ -10,12 +10,23 @@
     height: 100px;
     width: 100%;
 } */
-.carousel-container{
-    padding: auto;
-
+.carousel-container {
+  padding: auto;
+  margin: 20px 150px 50px 150px;
+}
+.carousel .slide img {
+  max-height: 500px;
+  width: auto;
+}
+.carousel .slide .legend {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  margin-left: 0%;
+  font-size: 18px;
 }
 
-.legend{
-    /* background-color: red !important; */
+.legend {
+  /* background-color: red !important; */
 }
-

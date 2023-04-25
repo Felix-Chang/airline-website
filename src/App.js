@@ -10,26 +10,23 @@ import Authors from "./Components/Authors";
 import "./App.css";
 
 function App() {
-    return (
-        <div>
-            <>
-                <Navbar />
-                <div className="body-container">
-                    <Routes>
-                        <Route path="/" element={<Home />} />
-                        <Route path="/AboutUs" element={<AboutUs />} />
-                        <Route
-                            path="/CustomerSupport"
-                            element={<CustomerSupport />}
-                        />
-                        <Route path="/Destination" element={<Destination />} />
-                        <Route path="/Authors" element={<Authors />} />
-                    </Routes>
-                </div>
-            </>
-            <Footer />
+  return (
+    <div className="app">
+      <>
+        <Navbar />
+        <div className="body-container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
+            <Route path="/CustomerSupport" element={<CustomerSupport />} />
+            <Route path="/Destination" element={<Destination />} />
+            <Route path="/Authors" element={<Authors />} />
+          </Routes>
         </div>
-    );
+      </>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
