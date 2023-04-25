@@ -1,0 +1,63 @@
+.form-title {
+  font-size: 30px;
+  margin-bottom: 15px;
+  color: rgb(216, 47, 46);
+  text-align: left;
+  font-weight: 800;
+}
+.booking-form {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+  border: 2px solid black;
+  padding: 10px 15px 35px 50px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.direction {
+  display: flex;
+  margin: 10px 0;
+}
+.direction input {
+  margin: 0 15px;
+}
+.first-direction {
+  width: 100%;
+}
+.second-direction {
+  margin-left: 50px;
+  margin: 0 5px 0 0;
+  width: 100%;
+}
+.date {
+  display: flex;
+  margin: 15px 0;
+}
+.date label {
+  margin-right: 15px;
+}
+.destination {
+  display: flex;
+  margin: 10px 0;
+}
+.destination label {
+  margin-right: 15px;
+  margin-top: 5px;
+}
+.prix {
+  display: flex;
+  margin-right: 30px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  justify-content: space-between;
+}
+.submit-btn {
+  margin: 10px 0px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.errorMsg {
+  color: rgb(216, 47, 46);
+}
